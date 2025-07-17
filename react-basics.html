@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>React Basics</title>
-  </head>
-  <body>
-    <div class="js-container"></div>
+   <head>
+      <title>React Basics</title>
+   </head>
+   <body>
+      <div class="js-container"></div>
 
    <!-- Loading code from a js file
    NOTE:: <script></script>
    <script> tag can load code from anywhere on the internet not just locally -->
-    <script src="react-basics.js"></script>
+      <script src="react-basics.js"></script>
 
-     <!-- Loading file from internet directly -->
+      <!-- Loading file from internet directly -->
       <script src="https://unpkg.com/supersimpledev@8.6.4/external-library.js"></script>
+      
+      <!-- Only React ==> Shared Features -->
+      <script src="https://unpkg.com/supersimpledev/react.js"></script>
 
-    <script src="https://unpkg.com/supersimpledev/react.js"></script>
-    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
-    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
-    <script type="text/babel">
+      <!-- React - dom ==> Features specific to websites -->
+      <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+      <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+      <script type="text/babel">
       const container = document.querySelector(".js-container");
       ReactDOM.createRoot(container).render(
-        "Welcome to SuperSimpleDev React Course"
+         "Welcome to SuperSimpleDev React Course"
       );
-    </script>
-  </body>
+      </script>
+   </body>
 </html>

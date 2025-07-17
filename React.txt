@@ -1,0 +1,3 @@
+React - External Library that helps us create websites easier
+   1==> It is an external Library
+   2==> Helps us create websites easier

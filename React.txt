@@ -5,3 +5,9 @@ React - External Library that helps us create websites easier
 NOTE::
 React ==> For using Shared Features
 React-DOM ==> Features Specific to websites
+
+Using React to create websites:
+==> load React & ReactDOM
+
+Using React to create mobile apps:
+==> load React & ReactNative
